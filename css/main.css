@@ -30,8 +30,8 @@
     padding: 2px;
 }
 
-.first-section{
-height: 100vh;
+.first-bluesection{
+height: 50vh;
 background-color: lightskyblue;
 display: flex;
 flex-direction: column;
@@ -68,24 +68,28 @@ background-color: lightgreen;
     align-items: center;
 }
 
-h3{
-    font-size: 20px;
-    padding: 0 20%;
+h2{
+text-align: center;
+font-size: 30px;
+padding: 0 10px;
+    
 }
 
-.resize-one {
-    width: 50px;
-    height: 50px;
+.imagenes-beneficio {
+    width: 90px;
+    height: 90px;
+    
 }
 
 .div-second{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
+   
 
+}
+
+.strong {
+    font-weight: bold;
 }
 
 
