@@ -13,7 +13,12 @@
     justify-content: space-between;
     background-color: black;
     position: fixed;
+
   
+}
+
+.menu-completo {
+    display: none;
 }
 
 
@@ -30,13 +35,16 @@
     padding: 2px;
 }
 
+
 .first-bluesection{
 height: 50vh;
-background-color: lightskyblue;
+background-color: dodgerblue;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
+color: white;
+padding: 10px;
 
 }
 
@@ -66,6 +74,7 @@ background-color: lightgreen;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 h2{
@@ -76,20 +85,71 @@ padding: 0 10px;
 }
 
 .imagenes-beneficio {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     
 }
 
 .div-second{
+    width: 90%;
+    padding: 20px;
+    margin: 0px;
     display: flex;
-    justify-content: flex-start;
-   
+    
 
 }
 
 .strong {
     font-weight: bold;
 }
+
+.my-footer {
+    background: black;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+        
+}
+.legal {
+  justify-content: flex-start;
+  margin : 20px;
+  list-style: none;
+  
+}
+
+@media (min-width: 800px) {
+    .menu-completo {
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+    
+    }
+.icon-menu {
+    display: none;
+
+}
+li {
+    padding: 5px;
+    list-style: none;
+    
+}
+.first-bluesection {
+    background-image: url(./images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80%;
+}
+.second-section {
+    flex-direction: row;
+
+}
+}
+
+
+
 
 
