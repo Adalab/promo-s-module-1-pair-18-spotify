@@ -139,11 +139,13 @@ line-height: 10px;
   
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .menu-completo {
         display: flex;
         color: white;
         justify-content: space-evenly;
+        padding: 1rem;
+        font-size:1.5rem;
     
     }
 .icon-menu {
@@ -153,17 +155,30 @@ line-height: 10px;
 li {
     padding: 5px;
     list-style: none;
-    
+  
 }
 .first-bluesection {
     background-image: url(./images/premium_dancer.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 80%;
+    
 }
-.second-section {
-    flex-direction: row;
-
+.main-title {
+    font-size:5rem;
+    font-weight: bold;
+    max-width: 550px;
+}
+.button-main {
+    max-width: 200px;
+}
+.titulo-beneficios {
+    font-weight: bold;
+    padding: 2rem; 
+}
+.section-div-1 {
+    display: flex;
+    justify-content: space-around;
 }
 }
 
