@@ -65,6 +65,7 @@ height: 2.5rem;
 margin: 5px 10px;
 background-color: lightgreen;
 color:white;
+max-width: 200px;
 }
 
 .p-secundaria {
@@ -179,6 +180,15 @@ li {
 .section-div-1 {
     display: flex;
     justify-content: space-around;
+    
+}
+.section-div-2 {
+        display: flex;
+        justify-content: space-around;
+     
+}
+.div-second{
+    width: 100%;
 }
 }
 
