@@ -1,5 +1,47 @@
-.page__header {
+.header-menu {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+
 }
+
+.menu-completo {
+  display: none;
+}
+
+
+.logo-menu {
+  width: 70px;
+  height: 25px;
+  padding: 5px 10px;
+
+}
+
+.icon-menu {
+  width: 30px;
+  height: 30px;
+  padding: 5px 20px;
+}
+
+@media (min-width: 768px) {
+  .menu-completo {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+  }
+
+  .icon-menu {
+    display: none;
+
+  }
+
+  li {
+    padding: 5px;
+    list-style: none;
+
+  }
+  }

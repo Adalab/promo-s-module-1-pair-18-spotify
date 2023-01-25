@@ -1,8 +1,14 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.my-footer {
+  background: black;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.legal {
+  justify-content: flex-start;
+  margin: 20px;
+  list-style: none;
+
 }
