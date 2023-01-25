@@ -1,68 +1,92 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
+<body>
+  <header class="header-menu">
+
+    <img class="logo-menu" src="/assets/images/logo.png" alt="logo de spotify">
+    <ul class="menu-completo">
+      <li>Premium</li>
+      <li>Ayuda</li>
+      <li>Descagar</li>
+      <li>|</li>
+      <li>Resgistrarse</li>
+      <li>Inicar sesión</li>
+
+    </ul>
+
+    <img class="icon-menu" src="/assets/images/menu-icon.png" alt="icono del menu">
+
+  </header>
+  <main class="main-section">
+
+    <section class="first-bluesection">
+
+      <h1 class="main-title">Prueba Premium gratis 3 meses</h1>
+      <p class="p-titulo">Escucha millones de canciones sin anuncios, a la carta y sin conexión</p>
+      <button class="button-main">VER PLANES</button>
+      <p class="p-secundaria"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga eveniet architecto sunt
+        minima dolorum repellendus nobis nisi ullam animi. </p>
+
+    </section>
+
+    <section class="second-section">
+      <h2 class="titulo-beneficios">¿Por que pasarte a Premium?</h2>
+      <section class="section-div-1">
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="/assets/images/benefit-1.png" alt="">
+          <p class="strong">Descarga Musica</p>
+          <p>Llévala siempre conmigo</p>
+        </div>
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="/assets/images/benefit-2.png" alt="">
+          <p class="strong">Sin anuncios</p>
+          <p>disfruta de música sin interrupciones</p>
+        </div>
+      </section>
+      <section class="section-div-2">
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="/assets/images/benefit-3.png" alt="">
+          <p class="strong">Escucha lo que quieras</p>
+          <p>Incluso en el móvil</p>
+        </div>
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="/assets/images/benefit-4.png" alt="">
+          <p class="strong">Salta todas las canciones que quieras</p>
+          <p>Simplemente dale al siguiente</p>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="my-footer">
+    <ul class="legal">
+      <li>Legal</li>
+      <li>cookies</li>
+      <li>informacion sobre los anuncios</li>
+    </ul>
+    <section class="bandera">
+      <div class="bandera-div">
         <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
+        España
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+         <img class="bandera-img" src="/assets/images/es.svg" alt="bandera">
+        </div>
+        <p class="copyr">copyright 20@</p>
+    </section>
+    
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+  </footer>
 
-          </li>
-        </ul>
-      </main>
+</body>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>
